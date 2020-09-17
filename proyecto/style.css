@@ -1,0 +1,232 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #fdbccf;
+    color: white;
+    background-color: #effffa;
+    background-image: url("data:image/svg+xml,%3Csvg width='84' height='48' viewBox='0 0 84 48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h12v6H0V0zm28 8h12v6H28V8zm14-8h12v6H42V0zm14 0h12v6H56V0zm0 8h12v6H56V8zM42 8h12v6H42V8zm0 16h12v6H42v-6zm14-8h12v6H56v-6zm14 0h12v6H70v-6zm0-16h12v6H70V0zM28 32h12v6H28v-6zM14 16h12v6H14v-6zM0 24h12v6H0v-6zm0 8h12v6H0v-6zm14 0h12v6H14v-6zm14 8h12v6H28v-6zm-14 0h12v6H14v-6zm28 0h12v6H42v-6zm14-8h12v6H56v-6zm0-8h12v6H56v-6zm14 8h12v6H70v-6zm0 8h12v6H70v-6zM14 24h12v6H14v-6zm14-8h12v6H28v-6zM14 8h12v6H14V8zM0 8h12v6H0V8z' fill='%23fbcedb' fill-opacity='1' fill-rule='evenodd'/%3E%3C/svg%3E");
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container {
+    width: 95%;
+    margin: auto;
+}
+/*navegacion*/
+.nav-main {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+.nav-brand {
+    width: 50px;
+}
+/* Navegacion izquierda*/
+.nav-main ul {
+    display: flex;
+}
+.nav-main ul li {
+    padding: 10px;
+}
+.nav-main ul li a{
+    padding: 2px;
+}
+.nav-main ul li a:hover{
+    border-bottom: 2px solid white;
+}
+
+.nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 20px;
+}
+.nav-main {
+    background-color: #c4e8dd;
+    border: 10px solid #c4e8dd;
+
+}
+/*Banner principal*/
+.principal {
+    width: 100%;
+    height: 700px;
+    background: url(img/bakery3.jpg.jpg) no-repeat center center/cover;
+    padding: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    border: 5px solid white;
+ }
+/*Tarjetas de presentacion*/
+.tarjetas {
+    
+    gap: 50px;
+    margin: 30x 0;
+    background-color:  white;
+    color: black;
+    border: 10px solid #c4e8dd;
+    
+}
+.tarjetas h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    
+}
+.tarjetas a {
+   padding: 10px 0;
+   color: white;
+   text-transform: uppercase;
+   display: inline-block;
+   font-weight: bold;
+   
+
+}
+.tarjetas a:hover {
+    text-decoration: underline;
+}
+/* Redes Sociales*/
+.social {
+    margin: 50px;
+    opacity: .9;
+    
+}
+.social p {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links a {
+    margin: 0 30px;
+}
+.links a i {
+    font-size: 3rem;
+}
+
+/*Pie de pagina links*/
+.footer-links {
+    background:  #c4e8dd;
+    color: white;
+    font-size: 15px;
+    padding: 35px 0;
+    margin-top: 50px;
+}
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: right;
+}
+.footer-container ul {
+    margin: 0 auto;
+}
+.footer-container ul {
+    line-height: 2.8;
+}
+
+/*Pie de pagina*/
+.footer {
+    background:  #c4e8dd;
+    color:  #73dabb;
+    font-size: 15px;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+/*Contacto*/
+.tarjeta-banner {
+    width: 100%;
+    height: 350px;
+    background: url(img/bakery23.jpg) no-repeat center center/cover;
+    border: 5px solid white;
+}
+.tarjeta-banner .content-dos {
+    width: 100%;
+    padding: 95px 0 0 30px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*Navegacion*/
+
+.contactos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    margin: 10px 0;
+    background-color:  white;
+    color: black;
+    opacity: .9;
+    border: 20px solid #c4e8dd;
+    
+}
+.contactos i {
+    font-size: 20px;
+    
+}
+
+/*Productos*/
+.catalogo {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 25px;
+        margin: 10px 0;
+        background-color:  white;
+        color: black;
+        opacity: .9;
+        border: 10px solid #c4e8dd;
+}
+    
+    .catalogo img {
+        width: 55%;
+        height: 180px;
+        border: 8px solid  #c4e8dd;
+    }
+    
+    .catalogo h3 {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .catalogo a {
+       padding: 10px 0;
+       color: black;
+       text-transform: uppercase;
+       display: inline-block;
+       font-weight: bold;
+    }
+    .catalogo a:hover {
+        text-decoration: underline;
+    }
+    .catalogo li {
+        text-align: left;
+    }
+
+    /*login*/
+
+    h1 {
+        text-align: center;
+        background-color: #fff;
+        color: black;
+    }
